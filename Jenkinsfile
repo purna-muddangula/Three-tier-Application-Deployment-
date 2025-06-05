@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent any 
 
     environment {
         DOCKER_COMPOSE_PATH = '/usr/local/bin/docker-compose'
