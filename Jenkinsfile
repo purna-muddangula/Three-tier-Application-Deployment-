@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/purna-muddangula/Three-tier-Application-Deployment-.git'
+                git branch: 'main', 'https://github.com/purna-muddangula/Three-tier-Application-Deployment-.git'
             }
         }
 
